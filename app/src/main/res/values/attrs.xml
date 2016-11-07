@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SideMenu">
+        <attr name="innerCircleRadius" format="dimension"/>
+        <!--内外半径的差值-->
+        <attr name="innerOuterOffsetValue" format="dimension"/>
+        <attr name="innerCircleColor" format="color"/>
+        <attr name="outerCircleColor" format="color"/>
+        <attr name="unfinishedTextColor" format="color"/>
+        <attr name="finishedTextColor" format="color"/>
+        <attr name="verticalSpacing" format="dimension"/>
+        <attr name="verticalLineWidth" format="dimension"/>
+        <!--序号文字大小-->
+        <attr name="indexTextSize" format="dimension"/>
+        <!--菜单文字大小-->
+        <attr name="menuNameTextSize" format="dimension"/>
+        <!--菜单文本左外边距-->
+        <attr name="menuNameMarginLeft" format="dimension"/>
+        <!--序号文本颜色-->
+        <attr name="indexTextColor" format="color"/>
+    </declare-styleable>
+</resources>

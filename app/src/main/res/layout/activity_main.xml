@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rdc.liyuzhen.sidemenu.MainActivity">
+
+    <com.rdc.liyuzhen.sidemenu.SideMenu
+        android:id="@+id/sm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:finishedTextColor="#FF000000"
+        app:indexTextColor="@color/customWhite"
+        app:indexTextSize="18sp"
+        app:innerCircleColor="@color/guideItemIndigo"
+        app:innerCircleRadius="15dp"
+        app:innerOuterOffsetValue="10dp"
+        app:menuNameMarginLeft="15dp"
+        app:menuNameTextSize="20sp"
+        app:outerCircleColor="@color/guideItemLightIndigo"
+        app:unfinishedTextColor="@color/itemUnselectedGrey"
+        app:verticalLineWidth="2dp"
+        app:verticalSpacing="50dp" />
+</RelativeLayout>
